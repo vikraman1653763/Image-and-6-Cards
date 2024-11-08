@@ -3,8 +3,8 @@ import React, { useEffect } from 'react';
 
 
 
-function Section11() {
-  const fcData = [
+function Section() {
+  const Data = [
     { name: 'Feature 1', spec: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { name: 'Feature 2', spec: 'Praesent vehicula, nunc ut ultricies eleifend, lectus arcu euismod.' },
     { name: 'Feature 3', spec: 'Donec aliquam eros vel nulla interdum, a accumsan nunc interdum.' },
@@ -21,7 +21,7 @@ function Section11() {
         <h2>Specifications</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies neque non felis bibendum feugiat.</p>
         <div className='section-container'>
-          {fcData.map((data, index) => (
+          {Data.map((data, index) => (
             <div key={index} className='section-card'>
               <h3>{data.name}</h3>
               <p>{data.spec}</p>
@@ -36,7 +36,7 @@ function Section11() {
   );
 }
 
-export default Section11;
+export default Section;
 
 
 // css for this section
