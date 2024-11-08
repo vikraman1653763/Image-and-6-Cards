@@ -2,6 +2,7 @@ import "./exx.css";
 import React, { useEffect } from 'react';
 
 
+
 function Section11() {
   const fcData = [
     { name: 'Feature 1', spec: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
